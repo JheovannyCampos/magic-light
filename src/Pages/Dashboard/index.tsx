@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "../../components/header";
 import Dashboard from "./dashboard";
+import { ContainerAll } from "./styles";
 
 const DashboardCard = () => {
   return (
     <>
-      <Header />
-      <Dashboard />
+      <ContainerAll>
+        <Header />
+        <Dashboard />
+      </ContainerAll>
     </>
   );
 };

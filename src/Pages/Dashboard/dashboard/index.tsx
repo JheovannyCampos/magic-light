@@ -1,6 +1,7 @@
 import React from "react";
 import principalImg from "../../../assets/principal.jpg";
-import { Container, Title, ImageContainer, SubTitle, AboutUs } from "./styles";
+import AboutUs from "../../../components/AboutUs";
+import { Container, Title, ImageContainer, SubTitle } from "./styles";
 
 const Dashboard: React.FC = () => {
   return (
@@ -15,13 +16,11 @@ const Dashboard: React.FC = () => {
           style={{
             maxWidth: "100%",
             height: "70%",
-            filter: "contrast(70%)",
+            filter: "contrast(75%)",
           }}
         />
       </ImageContainer>
-      <AboutUs>
-        <AboutUsTitle>Somos Magic Light</AboutUsTitle>
-      </AboutUs>
+      <AboutUs title="Somos Magic Light" />
     </Container>
   );
 };

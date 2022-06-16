@@ -39,7 +39,3 @@ export const ImageContainer = styled.div`
   background-color: #ffff;
   align-self: center;
 `;
-
-export const AboutUs = styled.div`
-  max-width: 100%;
-`;

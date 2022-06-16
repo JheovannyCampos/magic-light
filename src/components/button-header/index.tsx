@@ -1,7 +1,7 @@
-import React from "react";
+import React, { ButtonHTMLAttributes } from "react";
 import { Container, Title } from "./styles";
 
-interface ButtonHeaderProps {
+interface ButtonHeaderProps extends React.HTMLProps<HTMLButtonElement> {
   title: string;
 }
 
