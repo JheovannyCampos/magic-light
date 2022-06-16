@@ -10,7 +10,7 @@ const ButtonHeader = (Props: ButtonHeaderProps) => {
   const { title, id } = Props;
   const scrollTo = (id: any) => {
     const ref = document.getElementById(id);
-    ref?.scrollIntoView();
+    ref?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (

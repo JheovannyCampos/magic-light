@@ -11,7 +11,7 @@ export const Title = styled.h1`
   font-family: Roboto;
   font-weight: 700;
   font-size: 4rem;
-  margin-right: 2rem;
+  margin-right: 6rem;
   color: #ffd000;
 `;
 
@@ -24,5 +24,19 @@ export const Text = styled.h2`
   font-weight: 300;
   color: #8f8d8d;
   margin-right: 2rem;
-  text-align: end;
+  text-align: justify;
+`;
+
+export const Image = styled.img`
+  position: relative;
+  border-radius: 5px;
+  width: 45%;
+  z-index: 10;
+  bottom: 4rem;
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 `;
