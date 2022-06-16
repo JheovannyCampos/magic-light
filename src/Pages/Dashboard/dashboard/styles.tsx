@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -8,7 +8,6 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-family: Roboto;
   font-size: 5rem;
   font-weight: 700;
   color: #fff;
@@ -20,7 +19,6 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.p`
-  font-family: Roboto;
   font-weight: 500;
   font-size: 2rem;
   color: #ffd000;
