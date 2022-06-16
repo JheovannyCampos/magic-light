@@ -20,7 +20,7 @@ const Dashboard: React.FC = () => {
           }}
         />
       </ImageContainer>
-      <AboutUs title="Somos Magic Light" />
+      <AboutUs id="aboutus" title="Somos Magic Light" />
     </Container>
   );
 };

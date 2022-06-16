@@ -3,12 +3,13 @@ import { Container, Title, TextContainer, Text } from "./styles";
 
 interface AboutUsProps {
   title: string;
+  id: string;
 }
 
 const AboutUs = (Props: AboutUsProps) => {
-  const { title } = Props;
+  const { title, id } = Props;
   return (
-    <Container>
+    <Container id={id}>
       <Title>{title}</Title>
       <TextContainer>
         <Text>

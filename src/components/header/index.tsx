@@ -13,10 +13,10 @@ const Header = () => {
         />
       </Image>
       <ButtonArea>
-        <ButtonHeader title="Sobre nós" />
-        <ButtonHeader title="Vantagens" />
-        <ButtonHeader title="Financiamentos" />
-        <ButtonHeader title="Contato" />
+        <ButtonHeader title="Sobre nós" id={"aboutus"} />
+        <ButtonHeader title="Vantagens" id={"benefits"} />
+        <ButtonHeader title="Financiamentos" id={"financing"} />
+        <ButtonHeader title="Contato" id={"Contato"} />
       </ButtonArea>
     </Container>
   );

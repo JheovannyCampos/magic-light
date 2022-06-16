@@ -11,6 +11,7 @@ export const Title = styled.span`
   font-family: roboto;
   font-size: 22px;
   color: #8f8d8d;
+  margin: 0 auto;
 
   :hover {
     display: block;
@@ -18,11 +19,4 @@ export const Title = styled.span`
     color: #0286ad;
     border-bottom: 2px solid #ffd000;
   }
-  /* :hover {
-    display: block;
-    content: "";
-    border-bottom: solid 3px #019fb6;
-    transform: scaleX(0);
-    transition: transform 250ms ease-in-out;
-  } */
 `;
