@@ -1,6 +1,13 @@
 import React from "react";
-const Dashboard: React.FC = () => {
-  return <h1>Hello World</h1>;
-};
+import Header from "../../components/header";
+import Dashboard from "./dashboard";
 
-export default Dashboard;
+const DashboardCard = () => {
+  return (
+    <>
+      <Header />
+      <Dashboard />
+    </>
+  );
+};
+export default DashboardCard;
