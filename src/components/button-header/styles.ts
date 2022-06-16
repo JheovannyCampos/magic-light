@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: inline-block;
@@ -8,14 +8,12 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.span`
-  font-family: roboto;
   font-size: 22px;
   color: #8f8d8d;
   margin: 0 auto;
 
-  :hover {
+  &:hover {
     display: block;
-    content: "";
     color: #0286ad;
     border-bottom: 2px solid #ffd000;
   }
