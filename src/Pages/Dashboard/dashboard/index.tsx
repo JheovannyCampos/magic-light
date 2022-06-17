@@ -3,6 +3,7 @@ import FloatingWhatsApp from 'react-floating-whatsapp'
 import principalPng from './assets/principal.png';
 import principalWebp from './assets/principal.webp';
 import AboutUs from '../../../components/AboutUs';
+import wpp from './assets/wpp.png';
 import { Container, Title, ImageContainer, SubTitle } from './styles';
 
 
