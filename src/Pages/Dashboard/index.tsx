@@ -1,7 +1,6 @@
-import React from "react";
-import Header from "../../components/header";
-import Dashboard from "./dashboard";
-import { ContainerAll } from "./styles";
+import Header from '../../components/header';
+import Dashboard from './dashboard';
+import { ContainerAll } from './styles';
 
 const DashboardCard = () => {
   return (
