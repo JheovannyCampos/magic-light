@@ -4,6 +4,7 @@ import principalWebp from './assets/principal.webp';
 import AboutUs from '../../../components/AboutUs';
 import { Container, Title, ImageContainer, SubTitle } from './styles';
 
+
 const Dashboard: React.FC = () => {
   return (
     <Container>
@@ -22,7 +23,20 @@ const Dashboard: React.FC = () => {
           }}
         />
       </ImageContainer>
+
       <AboutUs id='aboutus' title='Somos Magic Light' />
+      <div style={{ zIndex: 20 }}>
+        <FloatingWhatsApp
+          phoneNumber={"5562981226363"}
+          accountName={"Magic Light"}
+          chatMessage={"Olá, como posso ajudar?"}
+          statusMessage={"Respondemos dentro de 1 hora"}
+          placeholder={"Digite sua mensagem..."}
+          notification={true}
+          notificationSound={true}
+          avatar={wpp}
+        />
+      </div>
     </Container>
   );
 };
