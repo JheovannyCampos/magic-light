@@ -1,5 +1,6 @@
-import React from "react";
-import working from "../../assets/working.jpg";
+import React from 'react';
+import workingJpg from './assets/working.jpg';
+import workingWebp from './assets/working.webp';
 import {
   Container,
   Title,
@@ -7,7 +8,7 @@ import {
   Text,
   Content,
   Image,
-} from "./styles";
+} from './styles';
 
 interface AboutUsProps {
   title: string;
@@ -20,17 +21,16 @@ const AboutUs = (Props: AboutUsProps) => {
     <Container id={id}>
       <Title>{title}</Title>
       <Content>
-        <Image src={working} />
+        <Image>
+          <source srcSet={workingWebp} type='image/webp' />
+          <img src={workingJpg} />
+        </Image>
         <TextContainer>
           <Text>
-            A Magic Light é uma empresa, comprometida com a democratização da
-            energia solar no Brasil, através de investimentos e ações de
-            transformação social e econômica, nas localidades onde atua.{" "}
-            <br></br> <br></br> A equipe Magic Light é reconhecida pelo seu
-            elevado conhecimento e comprometimento, e por isso temos todos muito
-            orgulho de fazer parte dessa família e da história que estamos
-            escrevendo.
-            <br></br> <br></br>{" "}
+            {`A Magic Light é uma empresa, comprometida com a democratização da energia solar no Brasil, através de investimentos e ações de transformação social e econômica, nas localidades onde atua.`}
+            <br />
+            <br />
+            {`A equipe Magic Light é reconhecida pelo seu elevado conhecimento e comprometimento, e por isso temos todos muito orgulho de fazer parte dessa família e da história que estamos escrevendo.`}
           </Text>
         </TextContainer>
       </Content>

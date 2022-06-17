@@ -29,7 +29,7 @@ export const SubTitle = styled.p`
   top: 17rem;
 `;
 
-export const ImageContainer = styled.div`
+export const ImageContainer = styled.picture`
   display: flex;
   width: fit-content;
   height: fit-content;

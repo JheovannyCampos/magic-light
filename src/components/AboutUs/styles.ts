@@ -25,12 +25,13 @@ export const Text = styled.h2`
   text-align: justify;
 `;
 
-export const Image = styled.img`
-  position: relative;
+export const Image = styled.picture`
+  width: 800px;
+  height: auto;
+  /* position: relative;
   border-radius: 5px;
-  width: 45%;
   z-index: 10;
-  bottom: 4rem;
+  bottom: 4rem;*/
 `;
 
 export const Content = styled.div`
