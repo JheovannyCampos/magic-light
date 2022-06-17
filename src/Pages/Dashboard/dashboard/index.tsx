@@ -23,16 +23,18 @@ const Dashboard: React.FC = () => {
         />
       </ImageContainer>
       <AboutUs id="aboutus" title="Somos Magic Light" />
-      <FloatingWhatsApp
-        phoneNumber={"5562981226363"}
-        accountName={"Magic Light"}
-        chatMessage={"Olá, como posso ajudar?"}
-        statusMessage={"Respondemos dentro de 1 hora"}
-        placeholder={"Digite sua mensagem..."}
-        notification={true}
-        notificationSound={true}
-        avatar={wpp}
-      />
+      <div style={{ zIndex: 20 }}>
+        <FloatingWhatsApp
+          phoneNumber={"5562981226363"}
+          accountName={"Magic Light"}
+          chatMessage={"Olá, como posso ajudar?"}
+          statusMessage={"Respondemos dentro de 1 hora"}
+          placeholder={"Digite sua mensagem..."}
+          notification={true}
+          notificationSound={true}
+          avatar={wpp}
+        />
+      </div>
     </Container>
   );
 };
