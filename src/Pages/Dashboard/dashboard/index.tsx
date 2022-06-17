@@ -1,4 +1,5 @@
 import React from 'react';
+import { FloatingWhatsApp } from 'react-floating-whatsapp' 
 import principalPng from './assets/principal.png';
 import principalWebp from './assets/principal.webp';
 import AboutUs from '../../../components/AboutUs';
