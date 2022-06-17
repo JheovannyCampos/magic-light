@@ -1,7 +1,7 @@
 import React from "react";
 import FloatingWhatsApp from "react-floating-whatsapp";
 import principalImg from "../../../assets/principal.jpg";
-import avatarWpp from "../../../assets/avatarWpp.jpg";
+import wpp from "../../../assets/wpp.png";
 import AboutUs from "../../../components/AboutUs";
 import { Container, Title, ImageContainer, SubTitle } from "./styles";
 
@@ -31,7 +31,7 @@ const Dashboard: React.FC = () => {
         placeholder={"Digite sua mensagem..."}
         notification={true}
         notificationSound={true}
-        avatar={avatarWpp}
+        avatar={wpp}
       />
     </Container>
   );
