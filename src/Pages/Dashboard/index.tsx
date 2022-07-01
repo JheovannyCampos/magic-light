@@ -1,14 +1,13 @@
-import Header from '../../components/header';
-import Dashboard from './dashboard';
-import { ContainerAll } from './styles';
+import Footer from "../../components/Footer";
+import Header from "../../components/header";
+import Dashboard from "./dashboard";
 
 const DashboardCard = () => {
   return (
     <>
-      <ContainerAll>
-        <Header />
-        <Dashboard />
-      </ContainerAll>
+      <Header />
+      <Dashboard />
+      <Footer />
     </>
   );
 };

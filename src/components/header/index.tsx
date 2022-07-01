@@ -1,6 +1,6 @@
 import React from "react";
 import headerLogo from "../../assets/headerLogo.png";
-import ButtonHeader from "../button-header";
+import HeaderMenu from "../HeaderMenu";
 import { Container, Image, ButtonArea } from "./styles";
 
 const Header = () => {
@@ -13,10 +13,7 @@ const Header = () => {
         />
       </Image>
       <ButtonArea>
-        <ButtonHeader title="Sobre nós" id={"aboutus"} />
-        <ButtonHeader title="Vantagens" id={"benefits"} />
-        <ButtonHeader title="Financiamentos" id={"financing"} />
-        <ButtonHeader title="Contato" id={"Contato"} />
+        <HeaderMenu />
       </ButtonArea>
     </Container>
   );

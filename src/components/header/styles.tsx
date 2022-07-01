@@ -5,8 +5,6 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 100%;
-  height: 7rem;
   background-color: #ffff;
   border-bottom: 10px solid #ffd000;
 `;
