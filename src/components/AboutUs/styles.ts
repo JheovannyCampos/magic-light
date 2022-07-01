@@ -1,10 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import workingWebp from "./assets/working.webp";
 
 export const Container = styled.div`
   display: flex;
-  max-width: 100%;
   flex-direction: column;
-  align-items: flex-end;
 `;
 
 export const Title = styled.h1`
@@ -15,7 +14,7 @@ export const Title = styled.h1`
 `;
 
 export const TextContainer = styled.div`
-  max-width: 45rem;
+  width: 45rem;
 `;
 
 export const Text = styled.h2`
@@ -25,17 +24,14 @@ export const Text = styled.h2`
   text-align: justify;
 `;
 
-export const Image = styled.picture`
-  width: 800px;
-  height: auto;
-  /* position: relative;
+export const Image = styled.img`
+  width: 720px;
+  margin: 3rem 1rem 3rem 5rem;
   border-radius: 5px;
-  z-index: 10;
-  bottom: 4rem;*/
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 `;
