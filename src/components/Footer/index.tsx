@@ -37,11 +37,14 @@ const Footer = () => {
       <Contact>
         <ContactText>
           <AiOutlinePhone
-            style={{ color: "white", fontSize: 28, marginRight: "5px" }}
+            style={{
+              color: "white",
+              fontSize: 28,
+              marginRight: "5px",
+            }}
           />{" "}
           +55 (62) 98122-6363
         </ContactText>
-
         <ContactText style={{ color: "#FFD000", fontWeight: 500 }}>
           {" "}
           <AiOutlineMail
@@ -58,10 +61,10 @@ const Footer = () => {
         </ContactText>
       </Contact>
       <FooterMenu>
-        <ButtonHeader title="Sobre nós" id={"aboutus"} />
-        <ButtonHeader title="Vantagens" id={"benefits"} />
-        <ButtonHeader title="Financiamentos" id={"financing"} />
-        <ButtonHeader title="Contato" id={"Contato"} />
+        <ButtonHeader isFooter={true} title="Sobre nós" id={"aboutus"} />
+        <ButtonHeader isFooter={true} title="Vantagens" id={"benefits"} />
+        <ButtonHeader isFooter={true} title="Financiamentos" id={"financing"} />
+        <ButtonHeader isFooter={true} title="Contato" id={"Contato"} />
       </FooterMenu>
     </Container>
   );

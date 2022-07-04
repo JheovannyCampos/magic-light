@@ -4,10 +4,11 @@ import { Container, Title } from "./styles";
 interface ButtonHeaderProps extends React.HTMLProps<HTMLButtonElement> {
   title: string;
   id: string;
+  isFooter?: boolean;
 }
 
 const ButtonHeader = (Props: ButtonHeaderProps) => {
-  const { title, id } = Props;
+  const { title, id, isFooter } = Props;
   const scrollTo = (id: any) => {
     const ref = document.getElementById(id);
     ref?.scrollIntoView({ behavior: "smooth" });
@@ -15,7 +16,7 @@ const ButtonHeader = (Props: ButtonHeaderProps) => {
 
   return (
     <Container onClick={() => scrollTo(id)}>
-      <Title>{title}</Title>
+      <Title isFooter={isFooter}>{title}</Title>
     </Container>
   );
 };
