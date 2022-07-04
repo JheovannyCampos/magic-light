@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   height: 15rem;
-  background-color: #0992bb;
+  background-color: #0174b5;
   justify-content: space-around;
 `;
 
@@ -20,11 +20,7 @@ export const AddressText = styled.h3`
   margin-bottom: 0;
 `;
 
-export const Contact = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-`;
+export const Contact = styled.div``;
 export const ContactText = styled.h2`
   color: white;
   font-family: Roboto;
