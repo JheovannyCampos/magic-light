@@ -7,7 +7,7 @@ const HeaderMenu = () => {
       <ButtonHeader title="Sobre nós" id={"aboutus"} />
       <ButtonHeader title="Vantagens" id={"benefits"} />
       <ButtonHeader title="Financiamentos" id={"financing"} />
-      <ButtonHeader title="Contato" id={"Contato"} />
+      <ButtonHeader title="Contato" id={"contactus"} />
     </ContainerMenu>
   );
 };

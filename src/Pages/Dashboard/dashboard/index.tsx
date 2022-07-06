@@ -1,11 +1,11 @@
-import React from 'react';
-import FloatingWhatsApp from 'react-floating-whatsapp' 
-import principalPng from './assets/principal.png';
-import principalWebp from './assets/principal.webp';
-import AboutUs from '../../../components/AboutUs';
-import wpp from './assets/wpp.png';
-import { Container, Title, ImageContainer, SubTitle } from './styles';
-
+import React from "react";
+import FloatingWhatsApp from "react-floating-whatsapp";
+import principalPng from "./assets/principal.png";
+import principalWebp from "./assets/principal.webp";
+import AboutUs from "../../../components/AboutUs";
+import wpp from "./assets/wpp.png";
+import { Container, Title, ImageContainer, SubTitle } from "./styles";
+import ContactUs from "../../../components/ContactUs";
 
 const Dashboard: React.FC = () => {
   return (
@@ -15,18 +15,19 @@ const Dashboard: React.FC = () => {
         Procuramos garantir o acesso à energia limpa e sustentável
       </SubTitle>
       <ImageContainer>
-        <source srcSet={principalWebp} type='image/webp' />
+        <source srcSet={principalWebp} type="image/webp" />
         <img
           src={principalPng}
           style={{
-            maxWidth: '100%',
-            height: '70%',
-            filter: 'contrast(75%)',
+            maxWidth: "100%",
+            height: "70%",
+            filter: "contrast(75%)",
           }}
         />
       </ImageContainer>
 
-      <AboutUs id='aboutus' title='Somos Magic Light' />
+      <AboutUs id="aboutus" title="Somos Magic Light" />
+      <ContactUs id="contactus" />
       <div style={{ zIndex: 20 }}>
         <FloatingWhatsApp
           phoneNumber={"5562981226363"}

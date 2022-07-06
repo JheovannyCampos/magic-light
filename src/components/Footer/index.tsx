@@ -1,11 +1,10 @@
-import { Col, Row } from "react-bootstrap";
 import {
   AiOutlineWhatsApp,
   AiOutlineMail,
   AiOutlinePhone,
 } from "react-icons/ai";
 import ButtonHeader from "../button-header";
-import headerLogo from "../../assets/headerLogo.png";
+import FooterLogo from "./assets/FooterLogo.png";
 import {
   Container,
   Address,
@@ -27,7 +26,7 @@ const Footer = () => {
       <Address>
         <img
           onClick={() => scrollToTop()}
-          src={headerLogo}
+          src={FooterLogo}
           style={{ marginTop: "10px", width: 250, cursor: "pointer" }}
         />
         <AddressText>R. Capitão Antônio Pedro da Cunha</AddressText>
