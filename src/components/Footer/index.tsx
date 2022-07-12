@@ -1,3 +1,4 @@
+import React from "react";
 import {
   AiOutlineWhatsApp,
   AiOutlineMail,
@@ -42,9 +43,14 @@ const Footer = () => {
               marginRight: "5px",
             }}
           />{" "}
-          +55 (62) 98122-6363
+          (62) 98122-6363
         </ContactText>
-        <ContactText style={{ color: "#FFD000", fontWeight: 500 }}>
+        <ContactText
+          style={{
+            color: "#FFD000",
+            fontWeight: 500,
+          }}
+        >
           {" "}
           <AiOutlineMail
             style={{ color: "#FFD000", fontSize: 28, marginRight: "5px" }}
@@ -52,7 +58,7 @@ const Footer = () => {
           magiclight@gmail.com
         </ContactText>
 
-        <ContactText>
+        <ContactText href="https://api.whatsapp.com/send/?phone=5562981226363&text=Olá,%20gostaria%20de%20um%20orçamento!">
           <AiOutlineWhatsApp
             style={{ color: "white", fontSize: 28, marginRight: "5px" }}
           />

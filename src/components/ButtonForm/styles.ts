@@ -11,9 +11,10 @@ export const Button = styled.button`
   font-weight: 500;
   font-size: 20px;
   color: #ffd000;
+  transition-duration: 0.3s;
   cursor: pointer;
 
-  &:hover {
+  :hover {
     transition-duration: 0.3s;
     width: 13rem;
     height: 4rem;

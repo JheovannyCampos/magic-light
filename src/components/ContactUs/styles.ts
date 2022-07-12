@@ -32,7 +32,7 @@ export const Card = styled.div`
   top: 10rem;
   left: 8rem;
   width: 50rem;
-  height: fit-content;
+  max-height: fit-content;
   border-radius: 5px;
   padding: 50px;
   background-color: #ffffff;

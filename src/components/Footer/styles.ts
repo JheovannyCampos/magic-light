@@ -20,12 +20,20 @@ export const AddressText = styled.h3`
   margin-bottom: 0;
 `;
 
-export const Contact = styled.div``;
-export const ContactText = styled.h2`
+export const Contact = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+`;
+export const ContactText = styled.a`
+  display: flex;
+  flex-direction: row;
   color: white;
   font-family: Roboto;
   font-weight: 300;
+  font-size: 22px;
   margin-bottom: 0;
+  text-decoration: none;
   cursor: pointer;
 `;
 

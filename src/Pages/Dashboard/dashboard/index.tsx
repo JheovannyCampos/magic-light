@@ -36,7 +36,6 @@ const Dashboard: React.FC = () => {
           statusMessage={"Respondemos dentro de 1 hora"}
           placeholder={"Digite sua mensagem..."}
           notification={true}
-          notificationSound={true}
           avatar={wpp}
         />
       </div>
