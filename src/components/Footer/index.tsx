@@ -46,6 +46,8 @@ const Footer = () => {
           (62) 98122-6363
         </ContactText>
         <ContactText
+          // onClick={() => window.open("tel:+5562981226363")}
+          href="tel://+5562981226363"
           style={{
             color: "#FFD000",
             fontWeight: 500,

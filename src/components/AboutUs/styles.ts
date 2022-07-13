@@ -25,7 +25,7 @@ export const Text = styled.h2`
 export const Image = styled.img`
   width: 720px;
   margin: 3rem 1rem 3rem 5rem;
-  border-radius: 5px;
+  border-radius: 10px;
 `;
 
 export const Content = styled.div`
