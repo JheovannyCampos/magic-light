@@ -20,4 +20,9 @@ export const Button = styled.button`
     height: 4rem;
     font-size: 23px;
   }
+
+  :active {
+    background-color: #ffd000;
+    color: #ffffff;
+  }
 `;
