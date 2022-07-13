@@ -16,8 +16,7 @@ export const Button = styled.button`
 
   :hover {
     transition-duration: 0.3s;
-    width: 13rem;
-    height: 4rem;
+    width: 11.5rem;
     font-size: 23px;
   }
 
