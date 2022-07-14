@@ -6,12 +6,7 @@ import { Container, Image, ButtonArea } from "./styles";
 const Header = () => {
   return (
     <Container>
-      <Image>
-        <img
-          src={headerLogo}
-          style={{ width: "100%", height: "5rem", filter: "contrast(100%)" }}
-        />
-      </Image>
+      <Image src={headerLogo} />
       <ButtonArea>
         <HeaderMenu />
       </ButtonArea>

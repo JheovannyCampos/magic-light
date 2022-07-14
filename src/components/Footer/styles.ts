@@ -5,6 +5,12 @@ export const Container = styled.div`
   height: 15rem;
   background-color: #0174b5;
   justify-content: space-around;
+
+  @media (max-width: 400px) {
+    flex-direction: column;
+    align-items: center;
+    height: 100rem;
+  }
 `;
 
 export const Address = styled.div`

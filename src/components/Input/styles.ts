@@ -9,4 +9,13 @@ export const InputForm = styled.input`
   font-family: Roboto;
   font-weight: 300;
   font-size: 18px;
+
+  @media screen and (max-width: 400px) {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    width: 15rem;
+    height: 2rem;
+  }
 `;

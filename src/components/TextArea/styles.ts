@@ -11,4 +11,9 @@ export const TextAreaForm = styled.textarea`
   font-family: Roboto;
   font-weight: 300;
   font-size: 18px;
+
+  @media screen and (max-width: 400px) {
+    width: 15rem;
+    height: 5rem;
+  }
 `;

@@ -1,10 +1,9 @@
 import React from "react";
 import FloatingWhatsApp from "react-floating-whatsapp";
-import principalPng from "./assets/principal.png";
 import principalWebp from "./assets/principal.webp";
 import AboutUs from "../../../components/AboutUs";
 import wpp from "./assets/wpp.png";
-import { Container, Title, ImageContainer, SubTitle } from "./styles";
+import { Container, Title, SubTitle, Image } from "./styles";
 import ContactUs from "../../../components/ContactUs";
 import Benefits from "../../../components/Benefits";
 
@@ -15,17 +14,7 @@ const Dashboard: React.FC = () => {
       <SubTitle>
         Procuramos garantir o acesso à energia limpa e sustentável
       </SubTitle>
-      <ImageContainer>
-        <source srcSet={principalWebp} type="image/webp" />
-        <img
-          src={principalPng}
-          style={{
-            maxWidth: "100%",
-            height: "70%",
-            filter: "contrast(75%)",
-          }}
-        />
-      </ImageContainer>
+      <Image src={principalWebp} />
 
       <AboutUs id="aboutus" title="Somos Magic Light" />
       <Benefits title={"Vantagens"} />
