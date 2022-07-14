@@ -9,9 +9,14 @@ export const Container = styled.header`
   border-bottom: 10px solid #ffd000;
 `;
 
-export const Image = styled.div`
-  max-width: 100%;
+export const Image = styled.img`
+  width: 263px;
   margin-left: 7rem;
+
+  @media screen and (max-width: 1200px) {
+    width: 200px;
+    margin-left: 0.5rem;
+  }
 `;
 export const ButtonArea = styled.div`
   display: flex;

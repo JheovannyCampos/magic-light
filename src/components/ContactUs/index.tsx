@@ -4,7 +4,14 @@ import emailjs from "emailjs-com";
 import { Button } from "../ButtonForm/styles";
 import Input from "../Input";
 import TextArea from "../TextArea";
-import { Text, Container, LeftSide, RightSide, Card } from "./styles";
+import {
+  Text,
+  Container,
+  LeftSide,
+  RightSide,
+  Card,
+  FormContainer,
+} from "./styles";
 
 interface contactUsProps {
   id: string;
@@ -34,17 +41,24 @@ const ContactUs = (Props: contactUsProps) => {
       <LeftSide>
         <Card>
           <Form ref={formRef} onSubmit={handleSubmit}>
-            <Input name="name" label="" placeholder="Nome" required />
-            <Input name="email" label="" placeholder="E-mail" required />
-            <Input name="phone" label="" placeholder="Telefone" required />
-            <Input
-              name="expense"
-              label=""
-              placeholder="Qual o seu Gasto? (R$/mês)"
-              required
-            />
-            <TextArea name="mensage" placeholder="Mensagem" label="" required />
-            <Button type="submit">Enviar</Button>
+            <FormContainer>
+              <Input name="name" label="" placeholder="Nome" required />
+              <Input name="email" label="" placeholder="E-mail" required />
+              <Input name="phone" label="" placeholder="Telefone" required />
+              <Input
+                name="expense"
+                label=""
+                placeholder="Qual o seu Gasto? (R$/mês)"
+                required
+              />
+              <TextArea
+                name="mensage"
+                placeholder="Mensagem"
+                label=""
+                required
+              />
+              <Button type="submit">Enviar</Button>
+            </FormContainer>
           </Form>
         </Card>
       </LeftSide>

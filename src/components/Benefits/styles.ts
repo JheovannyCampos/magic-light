@@ -20,13 +20,20 @@ export const SubTitle = styled.p`
   font-weight: 300;
   font-size: 20px;
   color: #8f8d8d;
+
+  @media screen and (max-width: 400px) {
+    text-align: center;
+    font-size: 18px;
+  }
 `;
 
 export const Image = styled.img`
   width: 100%;
-  max-width: 1490px;
-  border-radius: 10px;
-  filter: contrast(75%);
+  filter: contrast(80%);
+
+  @media screen and (max-width: 400px) {
+    height: 290px;
+  }
 `;
 
 export const CardText = styled.div`
@@ -34,9 +41,36 @@ export const CardText = styled.div`
   position: absolute;
   flex-direction: column;
   right: 10rem;
+
+  @media screen and (max-width: 1390px) {
+    right: 5rem;
+  }
+
+  @media screen and (max-width: 1080px) {
+    right: 2rem;
+  }
+  @media screen and (max-width: 830px) {
+    right: 1rem;
+    margin-top: 7rem;
+  }
+  @media screen and (max-width: 400px) {
+    margin-top: 13rem;
+    margin-right: 4rem;
+  }
 `;
 
 export const Text = styled.p`
   font-size: 22px;
   color: #ffffff;
+
+  @media screen and (max-width: 1080px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 930px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 12px;
+    font-weight: 500;
+  }
 `;
