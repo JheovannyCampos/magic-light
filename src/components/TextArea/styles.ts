@@ -12,7 +12,20 @@ export const TextAreaForm = styled.textarea`
   font-weight: 300;
   font-size: 18px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 1280px) {
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    width: 30.5rem;
+    height: 5rem;
+  }
+  @media screen and (max-width: 1080px) {
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    width: 22.5rem;
+    height: 5rem;
+  }
+
+  @media screen and (max-width: 480px) {
     width: 15rem;
     height: 5rem;
   }

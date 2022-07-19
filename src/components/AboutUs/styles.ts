@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
+  display: inline-block;
   flex-direction: column;
 `;
 
@@ -13,9 +13,12 @@ export const Title = styled.h1`
 
 export const TextContainer = styled.div`
   width: 45rem;
-
-  @media screen and (max-width: 400px) {
-    width: 385px;
+  @media screen and (max-width: 580px) {
+    width: 485px;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
     margin-bottom: 20px;
   }
 `;
@@ -26,7 +29,18 @@ export const Text = styled.h2`
   margin-right: 2rem;
   text-align: justify;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 1250px) {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 580px) {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+  }
+  @media screen and (max-width: 480px) {
     text-align: center;
     font-size: 18px;
     margin: 0;
@@ -34,11 +48,27 @@ export const Text = styled.h2`
 `;
 
 export const Image = styled.img`
-  width: 100%;
+  width: 700px;
   margin: 3rem 1rem 3rem 5rem;
   border-radius: 10px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 1250px) {
+    width: 550px;
+    margin: 3rem 1rem 3rem 1rem;
+    border-radius: 0;
+  }
+  @media screen and (max-width: 750px) {
+    width: 350px;
+    margin: 3rem 1rem 3rem 1rem;
+    border-radius: 0;
+  }
+  @media screen and (max-width: 580px) {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+  @media screen and (max-width: 480px) {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -51,7 +81,10 @@ export const Content = styled.div`
   flex-direction: row;
   justify-content: space-between;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 580px) {
+    flex-direction: column-reverse;
+  }
+  @media screen and (max-width: 480px) {
     flex-direction: column-reverse;
   }
 `;

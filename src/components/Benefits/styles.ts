@@ -21,7 +21,7 @@ export const SubTitle = styled.p`
   font-size: 20px;
   color: #8f8d8d;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     text-align: center;
     font-size: 18px;
   }
@@ -31,7 +31,7 @@ export const Image = styled.img`
   width: 100%;
   filter: contrast(80%);
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     height: 290px;
   }
 `;
@@ -53,7 +53,7 @@ export const CardText = styled.div`
     right: 1rem;
     margin-top: 7rem;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     margin-top: 13rem;
     margin-right: 4rem;
   }
@@ -69,7 +69,7 @@ export const Text = styled.p`
   @media screen and (max-width: 930px) {
     font-size: 15px;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     font-size: 12px;
     font-weight: 500;
   }

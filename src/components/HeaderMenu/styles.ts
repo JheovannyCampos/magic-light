@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ContainerMenu = styled.div`
-  display: flex;
   margin-right: 8rem;
 
   @media screen and (max-width: 876px) {
@@ -9,8 +8,7 @@ export const ContainerMenu = styled.div`
     margin-right: 1rem;
   }
 
-  @media screen and (max-width: 400px) {
-    flex-direction: column;
+  @media screen and (max-width: 480px) {
     margin-right: 1rem;
   }
 `;

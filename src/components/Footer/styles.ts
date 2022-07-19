@@ -6,7 +6,12 @@ export const Container = styled.div`
   background-color: #0174b5;
   justify-content: space-around;
 
-  @media (max-width: 400px) {
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+    height: 100rem;
+  }
+  @media (max-width: 480px) {
     flex-direction: column;
     align-items: center;
     height: 100rem;

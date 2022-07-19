@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  display: flex;
-  flex-direction: row;
+  display: flex !important;
+  flex-direction: row !important;
   align-items: center;
   justify-content: space-between;
   background-color: #ffff;
   border-bottom: 10px solid #ffd000;
+
+  @media (max-width: 480px) {
+    flex-direction: column !important;
+  }
 `;
 
 export const Image = styled.img`
@@ -19,7 +23,6 @@ export const Image = styled.img`
   }
 `;
 export const ButtonArea = styled.div`
-  display: flex;
   align-items: center;
   justify-content: space-around;
 `;
