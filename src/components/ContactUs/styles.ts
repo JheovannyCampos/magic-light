@@ -4,7 +4,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
 
-  @media (max-width: 400px) {
+  @media (max-width: 740px) {
+    flex-direction: column-reverse;
+  }
+  @media (max-width: 480px) {
     flex-direction: column-reverse;
   }
 `;
@@ -16,7 +19,24 @@ export const Text = styled.h1`
   align-self: center;
   margin-right: 6rem;
 
-  @media (max-width: 400px) {
+  @media (max-width: 1400px) {
+    font-size: 4.5vw;
+  }
+
+  @media (max-width: 890px) {
+    align-self: flex-start;
+    margin-right: px;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  @media (max-width: 740px) {
+    align-self: flex-start;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  @media (max-width: 480px) {
     align-self: flex-start;
     text-align: center;
     font-size: 3rem;
@@ -27,7 +47,11 @@ export const LeftSide = styled.div`
   height: 50rem;
   background-color: #0095db;
 
-  @media (max-width: 400px) {
+  @media (max-width: 740px) {
+    width: 100%;
+    height: 25rem;
+  }
+  @media (max-width: 480px) {
     width: 100%;
     height: 25rem;
   }
@@ -39,7 +63,11 @@ export const RightSide = styled.div`
   height: 50rem;
   background-color: #f2f4f6;
 
-  @media (max-width: 400px) {
+  @media (max-width: 740px) {
+    width: 100%;
+    height: 25rem;
+  }
+  @media (max-width: 480px) {
     width: 100%;
     height: 25rem;
   }
@@ -57,7 +85,26 @@ export const Card = styled.div`
   padding: 50px;
   background-color: #ffffff;
 
-  @media (max-width: 400px) {
+  @media (max-width: 1400px) {
+    width: 45rem;
+  }
+
+  @media (max-width: 1280px) {
+    width: 35rem;
+  }
+
+  @media (max-width: 1080px) {
+    width: 25rem;
+  }
+
+  @media (max-width: 740px) {
+    width: 20rem;
+    height: fit-content;
+    top: -15rem;
+    left: 2rem;
+    justify-content: center;
+  }
+  @media (max-width: 480px) {
     width: 14rem;
     height: 25rem;
     top: -15rem;
@@ -67,8 +114,13 @@ export const Card = styled.div`
 `;
 
 export const FormContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  right: 3rem;
+  /* @media screen and (max-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  @media screen and (max-width: 400px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;

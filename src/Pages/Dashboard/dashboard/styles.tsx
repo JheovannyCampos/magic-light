@@ -29,7 +29,7 @@ export const Title = styled.h1`
     font-size: 2rem;
     top: 15rem;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     font-size: 1.5rem;
     top: 15rem;
   }
@@ -64,7 +64,7 @@ export const SubTitle = styled.p`
     font-size: 1rem;
     top: 18rem;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     font-size: 1rem;
     top: 17rem;
     text-align: end;

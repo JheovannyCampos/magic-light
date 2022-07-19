@@ -10,7 +10,19 @@ export const InputForm = styled.input`
   font-weight: 300;
   font-size: 18px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 1280px) {
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    width: 14rem;
+    height: 2rem;
+  }
+  @media screen and (max-width: 1080px) {
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+  }
+  @media screen and (max-width: 480px) {
     display: flex;
     flex-direction: column;
     font-size: 15px;
