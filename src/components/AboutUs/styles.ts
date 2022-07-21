@@ -43,7 +43,7 @@ export const Text = styled.h2`
   @media screen and (max-width: 480px) {
     text-align: center;
     font-size: 18px;
-    margin: 0;
+    margin: 0 10px 0 10px;
   }
 `;
 
