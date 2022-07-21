@@ -29,6 +29,7 @@ export const SubTitle = styled.p`
 
 export const Image = styled.img`
   width: 100%;
+  height: 100%;
   filter: contrast(80%);
 
   @media screen and (max-width: 480px) {

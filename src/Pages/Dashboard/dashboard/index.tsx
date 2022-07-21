@@ -6,6 +6,7 @@ import wpp from "./assets/wpp.png";
 import { Container, Title, SubTitle, Image } from "./styles";
 import ContactUs from "../../../components/ContactUs";
 import Benefits from "../../../components/Benefits";
+import Financing from "../../../components/Finacing";
 
 const Dashboard: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const Dashboard: React.FC = () => {
 
       <AboutUs id="aboutus" title="Somos Magic Light" />
       <Benefits title={"Vantagens"} />
+      <Financing id="financing" />
       <ContactUs id="contactus" />
       <div style={{ zIndex: 20 }}>
         <FloatingWhatsApp
