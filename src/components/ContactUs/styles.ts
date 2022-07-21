@@ -84,6 +84,7 @@ export const Card = styled.div`
   border-radius: 5px;
   padding: 50px;
   background-color: #ffffff;
+  align-items: center;
 
   @media (max-width: 1400px) {
     width: 45rem;
@@ -108,7 +109,7 @@ export const Card = styled.div`
     width: 14rem;
     height: 25rem;
     top: -15rem;
-    left: 2rem;
+    left: 3rem;
     justify-content: center;
   }
 `;

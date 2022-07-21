@@ -43,8 +43,21 @@ const ContactUs = (Props: contactUsProps) => {
           <Form ref={formRef} onSubmit={handleSubmit}>
             <FormContainer>
               <Input name="name" label="" placeholder="Nome" required />
-              <Input name="email" label="" placeholder="E-mail" required />
-              <Input name="phone" label="" placeholder="Telefone" required />
+              <Input
+                name="email"
+                label=""
+                placeholder="E-mail"
+                type="email"
+                required
+              />
+              <Input
+                name="phone"
+                label=""
+                placeholder="Telefone"
+                data-mask="(00) 0000-0000"
+                maxLength={15}
+                required
+              />
               <Input
                 name="expense"
                 label=""
