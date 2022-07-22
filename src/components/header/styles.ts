@@ -17,11 +17,15 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 100%;
+  width: 263px;
   margin-left: 7rem;
 
   @media screen and (max-width: 1200px) {
     width: 200px;
+    margin-left: 0.5rem;
+  }
+  @media screen and (max-width: 480px) {
+    width: 260px;
     margin-left: 0.5rem;
   }
 `;

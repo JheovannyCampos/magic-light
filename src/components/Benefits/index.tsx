@@ -1,5 +1,5 @@
 import React from "react";
-import benefits from "./assets/benefits.png";
+import benefits from "./assets/benefits.jpg";
 import { BsSun } from "react-icons/bs";
 import { ContainerTop, Title, SubTitle, Image, CardText, Text } from "./styles";
 
