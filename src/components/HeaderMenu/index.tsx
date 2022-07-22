@@ -17,12 +17,13 @@ const HeaderMenu = () => {
       </ContainerMenu>
       <MenuDropdown>
         <Menu
-          aria-orientation="vertical"
           menuButton={
             <MenuButton
               style={{ border: "none", backgroundColor: "transparent" }}
             >
-              <AiOutlineMenu style={{ width: "32px", height: "32px" }} />
+              <AiOutlineMenu
+                style={{ width: "32px", height: "32px", color: "black" }}
+              />
             </MenuButton>
           }
           transition

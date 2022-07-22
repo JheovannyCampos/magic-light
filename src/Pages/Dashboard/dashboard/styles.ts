@@ -31,7 +31,7 @@ export const Title = styled.h1`
   }
   @media screen and (max-width: 480px) {
     font-size: 1.5rem;
-    top: 4rem;
+    top: 5rem;
   }
 `;
 
@@ -66,7 +66,7 @@ export const SubTitle = styled.p`
   }
   @media screen and (max-width: 480px) {
     font-size: 1rem;
-    top: 6rem;
+    top: 7rem;
     text-align: end;
   }
 `;

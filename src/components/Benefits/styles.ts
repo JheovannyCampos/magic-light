@@ -30,7 +30,7 @@ export const SubTitle = styled.p`
 export const Image = styled.img`
   width: 100%;
   height: 100%;
-  filter: contrast(80%);
+  filter: contrast(70%);
 
   @media screen and (max-width: 480px) {
     height: 290px;
@@ -48,11 +48,16 @@ export const CardText = styled.div`
   }
 
   @media screen and (max-width: 1080px) {
+    margin-top: 7rem;
     right: 2rem;
   }
   @media screen and (max-width: 830px) {
     right: 1rem;
     margin-top: 7rem;
+  }
+  @media screen and (max-width: 680px) {
+    right: 1rem;
+    margin-top: 11rem;
   }
   @media screen and (max-width: 480px) {
     margin-top: 13rem;
@@ -61,17 +66,26 @@ export const CardText = styled.div`
 `;
 
 export const Text = styled.p`
-  font-size: 22px;
+  font-size: 28px;
+  font-weight: 500;
   color: #ffffff;
 
   @media screen and (max-width: 1080px) {
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 500;
   }
   @media screen and (max-width: 930px) {
-    font-size: 15px;
+    top: 22rem;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 680px) {
+    top: 22rem;
+    font-size: 18px;
+    font-weight: 500;
   }
   @media screen and (max-width: 480px) {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
   }
 `;
