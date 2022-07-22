@@ -18,12 +18,8 @@ export const Title = styled.h1`
   top: 10rem;
 
   @media screen and (max-width: 1200px) {
-    font-size: 2.5rem;
-    top: 5rem;
-  }
-  @media screen and (max-width: 900px) {
-    font-size: 2.5rem;
-    top: 7rem;
+    font-size: 3rem;
+    top: 6rem;
   }
   @media screen and (max-width: 715px) {
     font-size: 2rem;
@@ -31,15 +27,11 @@ export const Title = styled.h1`
   }
   @media screen and (max-width: 670px) {
     font-size: 2rem;
-    top: 8rem;
-  }
-  @media screen and (max-width: 520px) {
-    font-size: 2rem;
-    top: 11rem;
+    top: 10rem;
   }
   @media screen and (max-width: 480px) {
     font-size: 1.5rem;
-    top: 12rem;
+    top: 4rem;
   }
 `;
 
@@ -65,20 +57,16 @@ export const SubTitle = styled.p`
 
   @media screen and (max-width: 715px) {
     font-size: 1.5rem;
-    top: 11rem;
+    top: 12rem;
   }
 
   @media screen and (max-width: 670px) {
     font-size: 1rem;
-    top: 11rem;
-  }
-  @media screen and (max-width: 520px) {
-    font-size: 1rem;
-    top: 14rem;
+    top: 13rem;
   }
   @media screen and (max-width: 480px) {
     font-size: 1rem;
-    top: 15rem;
+    top: 6rem;
     text-align: end;
   }
 `;

@@ -9,12 +9,14 @@ export const Container = styled.div`
   @media (max-width: 700px) {
     flex-direction: column;
     align-items: center;
-    height: 100rem;
+    justify-content: space-evenly;
+    height: 50rem;
   }
   @media (max-width: 480px) {
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    height: 100rem;
+    height: 50rem;
   }
 `;
 
@@ -46,6 +48,13 @@ export const ContactText = styled.a`
   margin-bottom: 0;
   text-decoration: none;
   cursor: pointer;
+
+  @media (max-width: 700px) {
+    margin: 10px 0px 10px 0px;
+  }
+  @media (max-width: 480px) {
+    margin: 10px 0px 10px 0px;
+  }
 `;
 
 export const FooterMenu = styled.div`

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const Container = styled.div`
   display: flex !important;
   flex-direction: row !important;
   align-items: center;
@@ -8,13 +8,16 @@ export const Container = styled.header`
   background-color: #ffff;
   border-bottom: 10px solid #ffd000;
 
-  @media (max-width: 480px) {
-    flex-direction: column !important;
+  @media screen and (max-width: 480px) {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-evenly;
   }
 `;
 
 export const Image = styled.img`
-  width: 263px;
+  width: 100%;
   margin-left: 7rem;
 
   @media screen and (max-width: 1200px) {
