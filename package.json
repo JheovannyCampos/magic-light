@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@szhsin/react-menu": "^3.1.1",
     "@types/styled-components": "^5.1.25",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
