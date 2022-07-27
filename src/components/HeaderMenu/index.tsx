@@ -22,7 +22,7 @@ const HeaderMenu = () => {
               style={{ border: "none", backgroundColor: "transparent" }}
             >
               <AiOutlineMenu
-                style={{ width: "32px", height: "32px", color: "black" }}
+                style={{ width: "32px", height: "32px", color: "#485B5D" }}
               />
             </MenuButton>
           }
