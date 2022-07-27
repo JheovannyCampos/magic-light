@@ -27,7 +27,7 @@ const ContactUs = (Props: contactUsProps) => {
       .send("GmailMessage", "template_jwvzm9h", data, "g9EO9zCkneGPTRi_d")
       .then(
         (response) => {
-          alert("SUCCESS!");
+          alert("Enviado!");
         },
         (err) => {
           alert(err.message);
