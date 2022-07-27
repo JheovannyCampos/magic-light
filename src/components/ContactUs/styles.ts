@@ -19,7 +19,7 @@ export const Text = styled.h1`
   align-self: center;
   margin-right: 6rem;
 
-  @media (max-width: 1400px) {
+  @media (max-width: 1460px) {
     font-size: 4.5vw;
   }
 
