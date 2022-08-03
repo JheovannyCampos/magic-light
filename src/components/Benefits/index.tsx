@@ -1,5 +1,6 @@
 import React from "react";
 import benefits from "./assets/benefits.jpg";
+import mariana from "./assets/mariana.jpg";
 import { BsSun } from "react-icons/bs";
 import { ContainerTop, Title, SubTitle, Image, CardText, Text } from "./styles";
 

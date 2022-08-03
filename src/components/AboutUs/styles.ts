@@ -79,7 +79,7 @@ export const Image = styled.img`
 export const Content = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 
   @media screen and (max-width: 580px) {
     flex-direction: column-reverse;

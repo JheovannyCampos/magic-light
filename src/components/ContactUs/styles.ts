@@ -114,11 +114,14 @@ export const Card = styled.div`
   }
 `;
 
+export const ContainerButton = styled.div`
+  display: flex;
+  margin: auto;
+  justify-content: center;
+`;
+
 export const FormContainer = styled.div`
-  /* @media screen and (max-width: 1280px) {
-    display: flex;
-    flex-direction: column;
-  } */
+  margin: auto;
 
   @media screen and (max-width: 400px) {
     display: flex;

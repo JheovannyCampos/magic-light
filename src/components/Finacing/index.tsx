@@ -1,6 +1,6 @@
 import React from "react";
 import bv from "./assets/bv.png";
-import santander from "./assets/santander.png";
+import santander from "./assets/santander-logo.png";
 import caixa from "./assets/caixa.png";
 import {
   Container,

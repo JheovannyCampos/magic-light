@@ -11,6 +11,7 @@ import {
   RightSide,
   Card,
   FormContainer,
+  ContainerButton,
 } from "./styles";
 
 interface contactUsProps {
@@ -70,7 +71,11 @@ const ContactUs = (Props: contactUsProps) => {
                 label=""
                 required
               />
-              <Button type="submit">Enviar</Button>
+              <ContainerButton>
+                <div />
+                <Button type="subit">Enviar</Button>
+                <div />
+              </ContainerButton>
             </FormContainer>
           </Form>
         </Card>

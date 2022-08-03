@@ -73,5 +73,5 @@ export const SubTitle = styled.p`
 
 export const Image = styled.img`
   width: 100%;
-  contrast: 75%;
+  filter: contrast(75%);
 `;

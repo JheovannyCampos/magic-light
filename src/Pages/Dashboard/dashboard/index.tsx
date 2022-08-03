@@ -1,6 +1,7 @@
 import React from "react";
 import FloatingWhatsApp from "react-floating-whatsapp";
 import principalWebp from "./assets/principal.webp";
+import mariana from "../../../components/Benefits/assets/mariana.jpg";
 import AboutUs from "../../../components/AboutUs";
 import wpp from "./assets/wpp.png";
 import { Container, Title, SubTitle, Image } from "./styles";

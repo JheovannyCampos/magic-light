@@ -5,7 +5,7 @@ export const ContainerTop = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1490px;
+  width: 100%;
   max-height: fit-content;
   background-color: #ffffff;
 `;
@@ -29,8 +29,7 @@ export const SubTitle = styled.p`
 
 export const Image = styled.img`
   width: 100%;
-  height: 100%;
-  filter: contrast(70%);
+  filter: blur(2.5px);
 
   @media screen and (max-width: 480px) {
     height: 290px;
