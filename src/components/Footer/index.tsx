@@ -50,15 +50,19 @@ const Footer = () => {
             color: "#FFD000",
             fontWeight: 500,
           }}
+          href="mailto:magiclightsolar@gmail.com?subject=Olá Magic Light Solar, gostaria de solicitar um orçamento"
         >
           {" "}
           <AiOutlineMail
             style={{ color: "#FFD000", fontSize: 28, marginRight: "5px" }}
           />{" "}
-          magiclight@gmail.com
+          magiclightsolar@gmail.com
         </ContactText>
 
-        <ContactText href="https://api.whatsapp.com/send/?phone=5562981226363&text=Olá,%20gostaria%20de%20um%20orçamento!">
+        <ContactText
+          href="https://api.whatsapp.com/send/?phone=5562981226363&text=Olá,%20gostaria%20de%20um%20orçamento!"
+          target="_blank"
+        >
           <AiOutlineWhatsApp
             style={{ color: "white", fontSize: 28, marginRight: "5px" }}
           />
