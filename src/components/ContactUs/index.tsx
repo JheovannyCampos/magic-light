@@ -51,14 +51,7 @@ const ContactUs = (Props: contactUsProps) => {
                 type="email"
                 required
               />
-              <Input
-                name="phone"
-                label=""
-                placeholder="Telefone"
-                data-mask="(00) 0000-0000"
-                maxLength={15}
-                required
-              />
+              <Input name="phone" label="" placeholder="Telefone" required />
               <Input
                 name="expense"
                 label=""
@@ -73,7 +66,7 @@ const ContactUs = (Props: contactUsProps) => {
               />
               <ContainerButton>
                 <div />
-                <Button type="subit">Enviar</Button>
+                <Button type="submit">Enviar</Button>
                 <div />
               </ContainerButton>
             </FormContainer>

@@ -106,10 +106,10 @@ export const Card = styled.div`
     justify-content: center;
   }
   @media (max-width: 480px) {
-    width: 14rem;
-    height: 25rem;
+    width: 16rem;
+    height: 28rem;
     top: -15rem;
-    left: 3rem;
+    left: 2rem;
     justify-content: center;
   }
 `;

@@ -26,7 +26,7 @@ export const TextAreaForm = styled.textarea`
   }
 
   @media screen and (max-width: 480px) {
-    width: 15rem;
+    width: 20rem;
     height: 5rem;
   }
 `;
